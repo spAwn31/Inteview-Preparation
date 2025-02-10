@@ -1,0 +1,151 @@
+											What is an Array?
+
+		An array is a collection of elements stored in contiguous memory locations. Elements are accessed using indices, 
+		and arrays are typically fixed in size (in most programming languages).
+		
+		
+		Fixed size (static arrays) vs. dynamic arrays (e.g., ArrayList in Java, list in Python).
+
+		Time complexities:
+		
+		Access: O(1)
+		
+		Search: O(n) (unsorted), O(log n) (sorted via binary search)
+		
+		Insert/Delete: O(n) (due to shifting elements).
+		
+		
+											Basic Operations:
+
+		-> Accessing elements by index.
+		
+		-> Insertion and deletion (with shifting of elements).
+		
+		-> Searching (linear search, binary search for sorted arrays).
+
+
+
+											Common Problems:
+
+		-> Finding the maximum/minimum element.
+		
+		-> Reversing an array.
+		
+		-> Rotating an array.
+		
+		-> Finding duplicates or missing elements.
+		
+		-> Sub-array problems (e.g., maximum sub-array sum, sub-arrays with a given sum).
+		
+		
+		
+				Essential Techniques
+				
+		Two-Pointer:
+		------------
+		Use Cases: Removing duplicates, finding pairs with a sum, partitioning (e.g., Dutch National Flag).
+		
+		Example: Remove Duplicates from Sorted Array (LeetCode #26).
+		
+		Sliding Window:
+		---------------
+		Use Cases: Sub-array/substring problems (e.g., max sum, longest unique characters).
+		
+		Example: Maximum Sub-array (LeetCode #53) (Kadane's Algorithm).
+		
+		Prefix Sum:
+		-----------
+		Use Cases: Range sum queries, equilibrium index, sub-array sums.
+		
+		Example: Product of Array Except Self (LeetCode #238).
+		
+		Cyclic Sort:
+		------------
+		Use Cases: Arrays with elements in a known range (e.g., [1, n]).
+		
+		Example: Find All Duplicates in an Array (LeetCode #442).
+		
+		Binary Search (for sorted arrays):
+		----------------------------------
+		Use Cases: Searching, finding boundaries, rotated arrays.
+		
+		Example: Search in Rotated Sorted Array (LeetCode #33).
+		
+							
+							Advanced Topics
+							
+		Matrix/2D Arrays:
+		-----------------
+		Traversal (spiral, diagonal), dynamic programming (e.g., minimum path sum).
+		
+		Example: Set Matrix Zeroes (LeetCode #73).
+		
+		In-place Operations: 
+		--------------------
+		Modify arrays without extra space (e.g., reversing, rotating).
+
+
+
+											
+
+
+
+							Advanced Topics:
+													
+
+		-> Two-pointer technique (e.g., finding pairs with a given sum, removing duplicates).
+		
+		-> Sliding window technique (e.g., finding sub-arrays with a specific property).
+		
+		-> Prefix sum and suffix sum arrays.
+		
+		-> Kadane's algorithm for maximum sub-array sum.
+
+
+							Multi-dimensional Arrays:
+													
+
+		-> Working with 2D arrays (e.g., matrix traversal, spiral order).
+		
+		-> Dynamic programming problems involving grids.
+
+
+
+							Practice Problems for Arrays:
+
+
+								Easy:
+
+		-> Two Sum (LeetCode #1).
+		
+		-> Remove Duplicates from Sorted Array (LeetCode #26).
+		
+		-> Best Time to Buy and Sell Stock (LeetCode #121).
+		
+		
+		
+								Medium:
+		
+		-> Maximum Sub-array (LeetCode #53).
+		
+		-> Product of Array Except Self (LeetCode #238).
+		
+		-> Merge Intervals (LeetCode #56).
+		
+		
+		
+								Hard:
+		
+		-> Trapping Rain Water (LeetCode #42).
+		
+		-> Median of Two Sorted Arrays (LeetCode #4).
+		
+		-> Sliding Window Maximum (LeetCode #239).
+		
+		
+		
+		
+		
+		
+		
+		-------------------------------------------------------------

@@ -1,0 +1,91 @@
+										What is a String?
+										
+		A string is a sequence of characters. In most programming languages, 
+		strings are immutable (cannot be changed after creation), which affects how you manipulate them.
+		
+									Definition: 
+		
+		Immutable sequence of characters (in most languages). 
+		Operations often require converting to a mutable structure (e.g., char[]).
+		
+								Time complexities:
+
+		Concatenation: O(n) (due to immutability).
+		
+		Substring: O(n) (depends on language).
+		
+		
+									Basic Operations:
+		
+		-> Concatenation, slicing, and substring extraction.
+		
+		-> Searching for characters or substrings.
+		
+		-> Reversing a string.
+		
+									Common Problems:
+		
+		-> Checking for palindrome.
+		
+		-> Finding the longest substring without repeating characters.
+		
+		-> Counting occurrences of characters or substrings.
+		
+		-> String matching (e.g., using KMP algorithm).
+		
+		
+									Advanced Topics:
+		
+		-> Two-pointer technique (e.g., reversing vowels, valid palindrome).
+		
+		-> Sliding window technique (e.g., longest substring with at most K distinct characters).
+		
+		-> String hashing and rolling hash (for Rabin-Karp algorithm).
+		
+		-> Trie (prefix tree) for efficient string storage and retrieval.
+		
+		
+									String Manipulation:
+		
+		-> Handling edge cases (e.g., empty strings, spaces, special characters).
+		
+		-> Using regular expressions for pattern matching.
+		
+		
+		
+		
+		
+		
+				Practice Problems for Strings:
+				
+							Easy:
+							-----
+		-> Reverse String (LeetCode #344).
+		
+		-> Valid Palindrome (LeetCode #125).
+		
+		-> Longest Common Prefix (LeetCode #14).
+		
+						Medium:
+						-------
+		-> Longest Substring Without Repeating Characters (LeetCode #3).
+		
+		-> Group Anagrams (LeetCode #49).
+		
+		-> String to Integer (atoi) (LeetCode #8).
+		
+						Hard:
+						-----
+		-> Minimum Window Substring (LeetCode #76).
+		
+		-> Regular Expression Matching (LeetCode #10).
+		
+		-> Longest Valid Parentheses (LeetCode #32).
+		
+		
+		
+		
+		
+		
+		
+		-------------------------------------------------------------
